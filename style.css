@@ -1,0 +1,65 @@
+header{
+
+    background-color: #6b0000;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.lupa{
+    float: right;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+label{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos dentro del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    width: 50%; /* Ajusta el ancho del formulario según sea necesario */
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 100px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+form button {
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    font-style: normal;
+    font-size: large;
+}
+body{
+    background-image: url('/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+}
